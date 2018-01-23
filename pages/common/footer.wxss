@@ -51,8 +51,10 @@ view{
   margin-top: 0;
   margin-bottom: 10px;
   color: #8f8f94;
+  line-height:48rpx;
+  display: block
 }
-
+.erweimas{ text-align: center;}
 .erweima{
-  width: 100%;
+  width: 80%;
 }

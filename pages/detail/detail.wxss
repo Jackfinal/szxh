@@ -33,16 +33,19 @@
   font-size: 1.5em;
   overflow: hidden;
 }
-
+.content-title-footer{
+margin-top: 10rpx;
+}
 .content-title-footer-left {
   float: left;
-  font-size: 0.6em;
+  font-size: .9em;
+  
 }
 
 .more-text {
   float: left;
   margin-right: 10px;
-  font-size: 0.6em;
+  font-size: 0.9em;
   line-height: 16px;
 }
 

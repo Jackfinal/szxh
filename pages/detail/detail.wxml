@@ -20,14 +20,7 @@
         </view>
 
       </view>
-      <view class="flex-container">
-        <view class="flex-item">
-          <button class="btn-yugang" bindtap='toYuyue'>鱼缸预约</button>
-        </view>
-        <view class="flex-item">
-          <button class="btn-yuliao" bindtap='toYuyue'>鱼料预约</button>
-        </view>
-      </view>
+      
 
       <video src='{{newsDetailInfo.videourl}}' wx:if='{{newsDetailInfo.videourl}}' class='detail_video'></video>
 
@@ -36,14 +29,7 @@
         <!-- //这里data中article为bindName -->
         <template is="wxParse" data="{{wxParseData:article.nodes}}" />
       </view>
-      <view class="flex-container">
-        <view class="flex-item">
-          <button class="btn-yugang" bindtap='toYuyue'>鱼缸预约</button>
-        </view>
-        <view class="flex-item">
-          <button class="btn-yuliao" bindtap='toYuyue'>鱼缸预约</button>
-        </view>
-      </view>
+      
 
       <include src='../common/footer.wxml' />
 

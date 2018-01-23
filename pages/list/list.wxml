@@ -24,11 +24,11 @@
 
 
                         </view>
-                        <view class="liebiao-footer-right">
+                        <!-- <view class="liebiao-footer-right">
 
                                 <button type="button" class="btn btn-yuyue" bindtap='toYuyue'>预约</button>
 
-                        </view>
+                        </view> -->
                     </view>
                </view>
             </view>

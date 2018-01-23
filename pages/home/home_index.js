@@ -16,6 +16,7 @@ Page({
       '0 0 10px 0'
     ],
     addressInfo:null,
+    recommend:[]
   },
   
 
@@ -107,9 +108,10 @@ Page({
         });
     }
     request.getWithBaseUrl({ service:'App.Hong.IndexInfo',siteid:3},function success(e){
-      console.log(e);
+      console.log(e.data.data.result);
       that.setData({
-        homeInfo:e.data.data.result
+        homeInfo:e.data.data.result,
+        recommend: e.data.data.result.recommend
       });
     });
   
