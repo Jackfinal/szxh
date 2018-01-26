@@ -33,7 +33,7 @@
 
     </view>
 
-    <view class='content_image_layout' bindtap='toDetail' data-id='{{item.id}}'>
+    <view class='content_image_layout' bindtap='toDetail' data-id='{{homeInfo.ads[0].id}}'>
       <image src='{{homeInfo.ads[0].thumb}}' mode='scaleToFill' class='content_image'></image>
     </view>
 
@@ -54,7 +54,7 @@
 
     </view>
 
-    <view class='content_image_layout' bindtap='toDetail' data-id='{{item.id}}'>
+    <view class='content_image_layout' bindtap='toDetail' data-id='{{homeInfo.ads[1].id}}'>
       <image src='{{homeInfo.ads[1].thumb}}' mode='scaleToFill' class='content_image'></image>
     </view>
 
